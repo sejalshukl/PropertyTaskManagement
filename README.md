@@ -30,7 +30,7 @@
 
 <img width="1592" height="745" alt="image" src="https://github.com/user-attachments/assets/a61e302e-403a-48cd-831f-2f40a714dc2c" />
 
-*dashboard form*
+*dashboard user*
 
 <img width="1595" height="743" alt="image" src="https://github.com/user-attachments/assets/4f2816bd-2319-4a57-8427-9c6dcb60cb86" />
 
