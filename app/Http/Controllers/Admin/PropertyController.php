@@ -17,7 +17,7 @@ class PropertyController extends Controller
      * Display a listing of the resource.
      */
 
-    
+
     public function index()
     {
 
@@ -44,7 +44,7 @@ class PropertyController extends Controller
             DB::beginTransaction();
             $input = $request->validated();
             if ($request->hasFile('image')) {
-                $input['image'] = $request->file('image')->store('Article', 'public');
+                $input['image'] = $request->file('image')->store('Property', 'public');
             }
             $property = Property::create($input);
             DB::commit();
