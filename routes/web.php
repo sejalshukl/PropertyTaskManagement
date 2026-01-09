@@ -50,6 +50,7 @@ Route::middleware(['auth', 'PreventBackHistory', 'firewall.all'])->group(functio
     Route::post('change-password', [App\Http\Controllers\Registeration\AuthController::class, 'changePassword'])->name('change-password');
     Route::get('home', fn() => redirect()->route('dashboard'))->name('home');
     Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+    
     // Properties
     Route::resource('property', App\Http\Controllers\Admin\PropertyController::class);
     //Masters
