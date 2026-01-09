@@ -94,7 +94,7 @@ class PropertyController extends Controller
                 if ($property->image) {
                     \Storage::disk('public')->delete($property->image);
                 }
-                $filePath = $request->file('image')->store('Article', 'public');
+                $filePath = $request->file('image')->store('Property', 'public');
                 $input['image'] = $filePath;
             }
 
